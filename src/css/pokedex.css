@@ -1,0 +1,162 @@
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-transform: capitalize;
+    background-color: rgb(55, 55, 55);
+}
+h2{
+    margin: 0px 0px 20px 0px;
+}
+
+form{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+
+}
+
+.poke_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #999797;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 500px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+.box{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.types{
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    width: 100%;
+    
+}
+
+.fire{
+    background-color: #F08030;
+}
+
+.bug{
+    background-color: #A8B820;
+}
+
+.dark{
+    background-color: #705848;
+}
+
+.dragon{
+    background-color: #7038F8;
+}
+.electric{
+    background-color: #F8D030;
+}
+.fairy{
+    background-color: #EE99AC;
+}
+.fighting{
+    background-color: #C03028;
+}
+.ghost{
+    background-color: #705898;
+}
+.grass{
+    background-color: #78C850;
+}
+.ground{
+    background-color: #E0C068;
+}
+.ice{
+    background-color: #98D8D8;
+}
+.normal{
+    background-color: #A8A878;
+}
+.poison{
+    background-color: #A040A0;
+}
+.psychic{
+    background-color: #F85888;
+}
+.rock{
+    background-color: #B8A038;
+
+}
+.steel{
+    background-color: #B8B8D0;
+
+}
+.water{
+    background-color: #6890F0;
+}
+.flying{
+    background-color: #A890F0;
+}
+
+.abilities{
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    padding: 15px 25px;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  margin: 10px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  color: #030303; /* Texto blanco */
+  text-transform: capitalize;
+}
+
+.abilities, .stats{
+    background-color: #5e6677;
+    border-radius: 10px;
+    margin: 10px;
+    width: 100%;
+}
+
+.description{
+    padding: 5px;
+}
+
+.showStats{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+p{
+    margin: 5px;
+}
+
+.notFound{
+    margin: 20px;
+}
+input{
+    margin: 10px;
+}
